@@ -1,0 +1,16 @@
+body { 
+  /*background: url(gui/public/img/rodolfo__.jpg) no-repeat center center fixed; */
+  background-color: #262626;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-group.last { margin-bottom:0px; }
+
+h1 {
+  font-size: 8px;
+}

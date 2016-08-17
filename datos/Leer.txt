@@ -1,0 +1,47 @@
+PENDIENTES
+
+EN PROCESO
+4.- Implementar la Opción Gestionar Permisos.
+7.- Implementar opción que me permita descargar Excel Actual o Excel Original, validar la opción. (MEDIO)
+
+LISTOS
+2.- En la Vista VerTrabajador debe visualizarse la Línea Base actual o el de por default.
+1.- Insertar una nueva linea base LB y guardarlo en la tabla INFORME.
+3.- Pasar el campo o atributo de la tbl_trabajador a la tabla tbl_otoscopia y mostrar la información en el Reporte (Age).
+5.- Validar la Eliminación de un Trabajador y ejecutar la acción. (LISTO)
+6.- Cambiar las imagenes del gráfico por circulos y aspas.
+8.- Configurar el archivo php.ini y permitir que el request y responsive den un time aceptable para ejecutar el script.
+	max_execution_time = 600
+	max_input_time = 600
+	display_errors = Off
+	short_open_tag = On
+9.- Aumentar al script una línea de código que me permita vaciar la tbl_temporal por default.
+10.- Validar los filtros de la vista Búsqueda Pacientes. (LISTO)
+11.- Validar los filtros de la vista Búsqueda Empresa. (LISTO)
+12.- Validar la selección del Lb y Ct para OD y OI.
+13.- Calcular el STS
+
+
+
+
+
+
+//idLbOd
+//idCtOd
+
+select o.id_otoscopia, o.fecha_audiometria, o.descripcion_od, o.descripcion_oi, o.estado, o.created_at, o.updated_at, o.id_trabajador
+from tbl_otoscopia o
+join tbl_informe i on (i.id_otoscopia = o.id_otoscopia)
+where o.id_trabajador = $idTrabajador and i.id_audio_tonal_od = $idLbOd
+Limit 1
+
+
+//fechaLbOd
+//fechaCtOd
+//idTrabajador
+//Obtener un array de los datos que cumplan el intervalo de fechas
+
+select i.id_informe, i.fecha_informe, i.estado, i.created_at, i.updated_at, i.id_trabajador, i.id_audio_tonal_od, i.id_audio_tonal_oi, i.id_diagnostico, i.id_otoscopia, i. id_recomendacion, i.id_experiencia_laboral, i.id_linea_base, i.id_empresa, i.id_menoscabo
+from tbl_informe i
+join tbl_otoscopia o on (o.id_otoscopia = i.id_otoscopia)
+where i.id_trabajador = $idTrabajador and o.fecha_audiometria between $fechaLbOd and $fechaCtOd
