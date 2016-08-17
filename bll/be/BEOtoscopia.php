@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : BEOtoscopia.php
 	* Fecha : sábado 21 de marzo del 2015 10:15:07 p.m.
-	* Autor : CAPSULE SAC
+	* Autor : Franklin Jesús Cabezas Rosario
 	**/
 
 	class BEOtoscopia {

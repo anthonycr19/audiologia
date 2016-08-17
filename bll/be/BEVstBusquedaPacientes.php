@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : BEVstBusquedaPacientes.php
 	* Fecha : domingo 09 de mayo del 2015 07:23:05 p.m.
-	* Autor : CAPSULE SAC
+	* Autor : Franklin Jesús Cabezas Rosario
 	**/
 
 	class BEVstBusquedaPacientes {

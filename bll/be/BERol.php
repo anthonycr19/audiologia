@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : BERol.php
 	* Fecha : domingo 09 de mayo del 2015 02:11:44 a.m.
-	* Autor : CAPSULE SAC
+	* Autor : Franklin Jesús Cabezas Rosario
 	**/
 
 	class BERol {

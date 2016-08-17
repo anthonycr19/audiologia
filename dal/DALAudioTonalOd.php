@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : DALAudioTonalOd.php
 	* Fecha : domingo 22 de marzo del 2015 08:54:47 a.m.
-	* Autor : CAPSULE SAC
+	* Autor : Franklin Jesús Cabezas Rosario
 	**/
 
 

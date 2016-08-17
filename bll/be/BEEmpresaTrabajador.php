@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : BEEmpresaTrabajador.php
 	* Fecha : sábado 21 de marzo del 2015 09:54:44 p.m.
-	* Autor : CAPSULE SAC
+	* Autor : Franklin Jesús Cabezas Rosario
 	**/
 
 	class BEEmpresaTrabajador {

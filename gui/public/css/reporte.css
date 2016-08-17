@@ -1,0 +1,97 @@
+#logo {
+	text-align: center;
+}
+
+#principal {
+	width: 800px;
+	border: 0px solid #000000;
+	margin: 0 auto;
+	/*height: 300px;*/
+	font-family: verdana;
+	font-size: 16px;
+}
+
+#titulo {
+	text-align: center;
+}
+
+#datospersonal {
+	font-family: verdana;
+	font-size: 11px;	
+}
+
+#historiaexposicion {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#resultados {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#interpretacion {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#menoscabo {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#conclusiones {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#general {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#especifica {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#complementarios {
+	font-family: verdana;
+	font-size: 10px;	
+}
+
+#botones {
+	font-family: verdana;
+	font-size: 10px;
+	text-align: center;	
+}
+/*
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 0px;
+}*/
+
+th, td {
+    /*padding: 15px;*/
+}
+
+label {
+	padding: 5px;
+}
+
+.altura {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.fechaCt {
+	font-family: verdana;
+	font-size: 10px;
+	text-align: right;		
+}
