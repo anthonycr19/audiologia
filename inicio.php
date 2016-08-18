@@ -83,6 +83,13 @@
                 <li><a href="gui/view/VistaCargarExcel.php" target="_blank"><span class="glyphicon glyphicon-upload"></span> Cargar Excel</a></li>
               </ul>
             </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-eye-open"></span> Gestor<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="gui/view/VistaCargarExcel.php" target="_blank"><span class="glyphicon glyphicon-file"></span> Gestionar archivos</a></li>
+              </ul>
+            </li>
           
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench"></span> Ajustes<span class="caret"></span></a>
