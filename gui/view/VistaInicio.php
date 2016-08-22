@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaInicio.php
     * Fecha : martes 11 de abril del 2015 06:49:00 p.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
 ?>

@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : DALTemporal.php
 	* Fecha : domingo 09 de mayo del 2015 06:21:47 p.m.
-	* Autor : Franklin Jesús Cabezas Rosario
+	* Autor : CAPSULE SAC
 	**/
 
 

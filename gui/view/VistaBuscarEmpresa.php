@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaBuscarEmpresa.php
     * Fecha : jueves 14 de mayo del 2015 01:31:05 a.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
     require_once('../../bll/bo/BOEmpresa.php');
@@ -62,10 +62,12 @@
                 </div>
             </div>
         </fieldset>
-            <div class="form-group">
-                <div class="col-lg-offset-10 col-lg-2">
-                    <a href="#" class="btn btn-info" onclick="buscarEmpresaFiltro()">&nbsp;Buscar&nbsp;</a>
-                    <button type="reset" class="btn btn-default">&nbsp;Limpiar&nbsp;</button>
+            <div class="form-group" style="margin-left: 930px;">
+                <div class="col-md-5">
+                    <a href="#" class="btn btn-info" onclick="buscarEmpresaFiltro()"><span class="glyphicon glyphicon-search"></span> Buscar</a>
+                </div>
+                <div class="col-md-5">
+                    <button type="reset" class="btn btn-default"> Limpiar</button>
                 </div>
             </div>
     </form>
@@ -74,7 +76,7 @@
 <?php
     if (isset($_POST['confirma'])) {
 ?>
-</br></br>
+</br>
 <div id="example_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer">
     <div class="row">
         <div class="col-sm-12">
@@ -86,6 +88,8 @@
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Fecha Registro: activate to sort column ascending" style="width: 17%;"><center>Fecha Registro</center></th>
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Empresa: activate to sort column ascending" style="width: 25%;"><center>Empresa</center></th>
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Acciones</center></th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Eliminar</center></th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Inutiliar</center></th>
                     </tr>
                 </thead>
                 <tbody>

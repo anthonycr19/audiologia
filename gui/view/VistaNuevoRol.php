@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaNuevoRol.php
     * Fecha : viernes 15 de mayo del 2015 09:21:34 p.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
     require_once('../../bll/bo/BORol.php');

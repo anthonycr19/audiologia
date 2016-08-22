@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaCargarExcel.php
     * Fecha : martes 11 de abril del 2015 06:48:05 p.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
 ?>
@@ -16,7 +16,7 @@
 	  <title>Audiología | Laboral</title>
 	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	  <meta name="author" content="Franklin Jesús Cabezas Rosario">
+	  <meta name="author" content="CAPSULE SAC">
 
 	  <link rel="icon" href="../public/img/favicon.ico" type="image/x-icon">
 	  <link rel="stylesheet" type="text/css" href="../public/bootstrap/css/bootstrap.min.css">

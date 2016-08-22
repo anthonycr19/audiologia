@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaTruncateTableTemporal.php
     * Fecha : domingo 14 de junio del 2015 11:27:15 p.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
 	//Eliminar los datos de la tabla temporal
