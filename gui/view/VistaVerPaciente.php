@@ -551,10 +551,10 @@
 
 										?>
 													<tr>
-														<td height="5px;"><center><?php echo $i+1; ?></center></td>
+														<td height="5px;"><center><?php echo $j+1; ?></center></td>
 														<input type="hidden" name="<?php echo 'idAudioTonalOd_'.$i;?>" id="<?php echo 'idAudioTonalOd_'.$i;?>" value="<?php echo $audioTonalOd[$i]->idAudioTonalOd; ?>">
 														<input type="hidden" name="<?php echo 'idAudioTonalOi_'.$i;?>" id="<?php echo 'idAudioTonalOi_'.$i;?>" value="<?php echo $audioTonalOi[$i]->idAudioTonalOi; ?>">
-														<td><input class="form-control" type="radio" onClick="EventoRadioLb(<?php echo $i;?>)" name="lbRadio_od" id="<?php echo 'lbRadio_od_'.$i;?>" value="" <?php if($ultOd==$audioTonalOd[$i]->idAudioTonalOd){echo 'checked';}?>></td>
+														<td><input class="form-control" type="radio" onClick="EventoRadioLb(<?php echo $i;?>)" name="lbRadio_od" id="<?php echo 'lbRadio_od_'.$i;?>" value="" <?php if($ultOd==$audioTonalOd[$j]->idAudioTonalOd){echo 'checked';}?>></td>
 														<td><input class="form-control" type="radio" onClick="EventoRadioCt(<?php echo $i;?>)" name="ctRadio_od" id="<?php echo 'ctRadio_od_'.$i;?>" value=""></td>
 														<td><input class="form-control" type="checkbox" name="retestCheck" id="<?php echo 'retestCheck_'.$i;?>" value="" <?php if($audioTonalOd[$i]->retest==1){echo 'checked';}?>></td>
 														<td><input class="form-control" type="checkbox" name="failCheck" id="<?php echo 'failCheck_'.$i;?>" value="" <?php if($audioTonalOd[$i]->fail==1){echo 'checked';}?>></td>
