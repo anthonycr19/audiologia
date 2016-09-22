@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : DALTrabajador.php
 	* Fecha : martes 24 de marzo del 2015 00:01:34 a.m.
-	* Autor : Franklin Jesús Cabezas Rosario
+	* Autor : CAPSULE SAC
 	**/
 
 
@@ -32,7 +32,6 @@
 
 
 		/* Funcion: GetEntidadxId */
-
 		public function GetEntidadxId($idTrabajador){
 
 			$this->cn = new Conexion();

@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaBuscarPaciente.php
     * Fecha : lunes 11 de abril del 2015 07:14:34 p.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
 	require_once('../../bll/bo/BOTrabajador.php');
@@ -188,7 +188,7 @@
   	<meta charset="utf-8">
   	<title>Audiología | Laboral</title>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
- 	<meta name="author" content="Franklin Jesús Cabezas Rosario">
+ 	<meta name="author" content="CAPSULE SAC">
 
   	<link rel="icon" href="../public/img/favicon.ico" type="image/x-icon">
 
@@ -677,7 +677,7 @@
   	<footer>
     	<div class="container">
       		<div class="copyright">
-        		&copy; 2015 Diseño y desarrollo por <a href="https://www.facebook.com/frankjesus.cr" target="_blank">Franklin Jesús Cabezas Rosario</a>
+        		&copy; 2015 Diseño y desarrollo por <a href="https://www.facebook.com/frankjesus.cr" target="_blank">CAPSULE SAC</a>
       		</div>
     	</div>
   	</footer>

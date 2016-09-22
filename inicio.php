@@ -62,46 +62,31 @@
 
             <li class="active"><a href="#" onclick="inicio()"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
 
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Pacientes<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#" onclick="buscarPaciente()"><span class="glyphicon glyphicon-search"></span> Buscar Paciente</a></li>
-                <!--<li><a href="#"><span class="glyphicon glyphicon-ok"></span> Salvar Paciente</a></li>-->
-              </ul>
-            </li>
+            <li><a href="#" onclick="buscarPaciente()"><span class="glyphicon glyphicon-search"></span> Buscar Paciente</a></li>
 
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-briefcase"></span> Empresas<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#" onclick="buscarEmpresa()"><span class="glyphicon glyphicon-search"></span> Buscar Empresa</a></li>
-              </ul>
-            </li>
-
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-upload"></span> Excel<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="gui/view/VistaCargarExcel.php" target="_blank"><span class="glyphicon glyphicon-upload"></span> Cargar Excel</a></li>
-              </ul>
-            </li>
-
+            <li><a href="#" onclick="buscarEmpresa()"><span class="glyphicon glyphicon-search"></span> Buscar Empresa</a></li>
+            <li><a href="gui/view/VistaCargarExcel.php" target="_blank"><span class="glyphicon glyphicon-upload"></span> Subir Excel</a></li>
+            <!--
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-eye-open"></span> Gestor<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="gui/view/VistaCargarExcel.php" target="_blank"><span class="glyphicon glyphicon-file"></span> Gestionar archivos</a></li>
               </ul>
             </li>
-          
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench"></span> Ajustes<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#" onclick="nuevoUsuario()"><span class="glyphicon glyphicon-user"></span> Nuevo Usuario</a></li>
-                <li><a href="#" onclick="nuevoRol()"><span class="glyphicon glyphicon-cog"></span> Nuevo Rol</a></li>
-                <!--<li><a href="#" onclick="gestionarPermisos()"><span class="glyphicon glyphicon-globe"></span> Gestionar Permisos</a></li>-->
-              </ul>
+            -->
+            <!--
+           <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-wrench"></span> Ajustes<span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               <li><a href="#" onclick="nuevoUsuario()"><span class="glyphicon glyphicon-user"></span> Nuevo Usuario</a></li>
+               <li><a href="#" onclick="nuevoRol()"><span class="glyphicon glyphicon-cog"></span> Nuevo Rol</a></li>
+               -->
+               <!--<li><a href="#" onclick="gestionarPermisos()"><span class="glyphicon glyphicon-globe"></span> Gestionar Permisos</a></li>-->
+      <!--</ul>
             </li>
-            
+           -->
           </ul>
-          
+
           <form class="navbar-form navbar-left" role="search">
           </form>
 
@@ -130,7 +115,7 @@
   <footer>
     <div class="container">
       <div class="copyright">
-        &copy; 2015 Diseño y desarrollo por <a href="https://www.facebook.com/frankjesus.cr" target="_blank">CAPSULE SAC</a>
+        &copy; 2015 Diseño y desarrollo por <a href="https://www.facebook.com/capsule.sac/?fref=ts" target="_blank">CAPSULE SAC</a>
       </div>
     </div>
   </footer>

@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaCargarExcel.php
     * Fecha : martes 11 de abril del 2015 06:48:05 p.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
 ?>
@@ -16,7 +16,7 @@
 	  <title>Audiología | Laboral</title>
 	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	  <meta name="author" content="Franklin Jesús Cabezas Rosario">
+	  <meta name="author" content="CAPSULE SAC">
 
 	  <link rel="icon" href="../public/img/favicon.ico" type="image/x-icon">
 	  <link rel="stylesheet" type="text/css" href="../public/bootstrap/css/bootstrap.min.css">
@@ -49,7 +49,7 @@
 					      			<input type="file" class="form-control" id="excel" name="excel">
 					    		</div>
 					    		<div class="col-xs-12 col-sm-6 col-md-4">
-					    			<button class="btn btn-success" type="submit" name="enviar">&nbsp;Importar <span class="glyphicon glyphicon-circle-arrow-up"></span>&nbsp;</button>
+					    			<button class="btn btn-success" type="submit" name="enviar">&nbsp;Cargar Excel  <span class="glyphicon glyphicon-circle-arrow-up"></span>&nbsp;</button>
 					    		</div>
 					    		<input type="hidden" value="upload" name="action" />
 					    		<input type="hidden" name="nombreArchivo" id="nombreArchivo" value="<?php if(isset($_FILES['excel']['name'])){echo $_FILES['excel']['name'];} ?>">
@@ -71,9 +71,9 @@
 			$destino = "bak_".$archivo;
 
 			if (copy($_FILES['excel']['tmp_name'],$destino)){
-				echo "<strong>ARCHIVO CARGADO CON ÉXITO!</strong><br><br>";
+				echo "<strong>DATOS CARGADOS CON ÉXITO!</strong><br><br>";
 			} else {
-				echo "<strong>ERROR AL CARGAR EL ARCHIVO!</strong>";
+				echo "<strong>ERROR AL CARGAR LOS DATOS!</strong>";
 			} 
 
 			if (file_exists ("bak_".$archivo)){
@@ -202,7 +202,7 @@
 						echo "<br><br><strong>".$_FILES['excel']['name'] . ", este archivo existe...</strong>";
 					}
 					echo "<br><br><br>";
-					echo "<center><a href='VistaExportarDatos.php?idArchivo=".$idArchivo."' class='btn btn-success'>Exportar Datos <span class='glyphicon glyphicon-circle-arrow-up'></span></a>";
+					echo "<center><a href='VistaExportarDatos.php?idArchivo=".$idArchivo."' class='btn btn-success'>Subir Datos <span class='glyphicon glyphicon-circle-arrow-up'></span></a>";
 					echo "&nbsp;&nbsp;<a class='btn btn-default' onclick='cancelarCarga(".$idArchivo.")'>Cancelar <span class='glyphicon glyphicon-remove'></span></a></center>";
 					echo "<br><br><br>";
 				}

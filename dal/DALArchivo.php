@@ -4,16 +4,19 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : DALArchivo.php
 	* Fecha : miércoles 13 de mayo del 2015 10:55:05 p.m.
-	* Autor : Franklin Jesús Cabezas Rosario
+	* Autor : CAPSULE SAC
 	**/
 
 
 	/* Includes */
 	require_once("../../conexion/Conexion.php");
+    require_once("../../conexion/Conexion.php");
 
 	class DALArchivo {
 
 		/* Atributos */
+
+
 
 		public $cn;
 
@@ -43,6 +46,7 @@
 
 			return $result;
 		}
+
 
 
 		/* Funcion: Insertar */
@@ -104,6 +108,65 @@
 
 			return $result;
 		}
+
+		public function Eliminar_Archivo_Fisico($idArchivo){
+            //unlink("../../nombredelarchvio.xls");
+            echo $idArchivo;
+            echo $idArchivo;
+            echo $idArchivo;
+            echo $idArchivo;
+            echo $idArchivo;
+            echo $idArchivo;
+
+            $this->cn = new Conexion();
+
+            $sql = "SELECT nombre_archivo FROM tbl_archivo WHERE tbl_archivo.id_Archivo = $idArchivo";
+
+            $link = $this->cn->Conectarse();
+
+            $result = mysql_query($sql, $link);
+            $this->cn->Desconectarse();
+
+            while ($fila = mysql_fetch_assoc($result)) {
+                $nombre = $fila['nombre_archivo'];
+            }
+//            echo $nombre;
+
+            $rutaInicio = "../../archivos/".$nombre;
+            if (file_exists($rutaInicio)){
+                unlink("../../archivos/".$nombre);
+            }
+        }
+
+        public function Eliminar_Archivo($idArchivo){
+
+
+            $this->cn = new Conexion();
+            //$sql = "DELETE FROM tbl_archivo WHERE id_archivo = $idArchivo";
+            $sql = "DELETE tbl_archivo, tbl_archivo_trabajador,tbl_audio_tonal_od,tbl_audio_tonal_oi,tbl_diagnostico,tbl_empresa_trabajador,tbl_experiencia_laboral,tbl_informe,
+                           tbl_linea_base,tbl_menoscabo,tbl_otoscopia,tbl_recomendacion
+                    FROM tbl_archivo
+                    INNER JOIN tbl_archivo_trabajador ON tbl_archivo_trabajador.id_archivo = tbl_archivo.id_archivo
+                    INNER JOIN tbl_audio_tonal_od ON tbl_audio_tonal_od.id_audio_tonal_od = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_audio_tonal_oi ON tbl_audio_tonal_oi.id_audio_tonal_oi = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_diagnostico ON tbl_diagnostico.id_diagnostico = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_empresa_trabajador ON tbl_empresa_trabajador.id_empresa_trabajador = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_experiencia_laboral ON tbl_experiencia_laboral.id_experiencia_laboral = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_informe ON tbl_informe.id_informe = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_linea_base ON tbl_linea_base.id_linea_base = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_menoscabo ON tbl_menoscabo.id_menoscabo = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_otoscopia ON tbl_otoscopia.id_otoscopia = tbl_archivo_trabajador.id_archivo_trabajador
+                    INNER JOIN tbl_recomendacion ON tbl_recomendacion.id_recomendacion = tbl_archivo_trabajador.id_archivo_trabajador
+                    WHERE tbl_archivo_trabajador.id_archivo = $idArchivo";
+
+            $link = $this->cn->Conectarse();
+
+            $result = mysql_query($sql,$link);
+            $this->cn->Desconectarse();
+
+            return $result;
+        }
+
 	}
 
 ?>

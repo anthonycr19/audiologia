@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : index.php
     * Fecha : domingo 19 de abril del 2015 03:51:30 a.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
 ?>
@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <title>Audiología | Laboral</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="author" content="Franklin Jesús Cabezas Rosario">
+    <meta name="author" content="CAPSULE SAC">
     
     <link rel="icon" href="gui/public/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="gui/public/bootstrap/css/bootstrap.min.css">

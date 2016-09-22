@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : BOEmpresa.php
 	* Fecha : domingo 09 de mayo del 2015 08:33:15 a.m.
-	* Autor : Franklin Jesús Cabezas Rosario
+	* Autor : CAPSULE SAC
 	**/
 
 	/**
@@ -104,6 +104,25 @@
 			
 			return $result;
 		}
+
+		public function GetEntidadxDireccion($direccion) {
+
+			$this->_DALEmpresa = new DALEmpresa();
+			$result = $this->_DALEmpresa->GetEntidadxDireccion($direccion);
+			$this->_DALEmpresa = NULL;
+
+			return $result;
+		}
+
+		public function GetEntidades() {
+
+			$this->_DALEmpresa = new DALEmpresa();
+			$result = $this->_DALEmpresa->GetEntidades();
+			$this->_DALEmpresa = NULL;
+
+			return $result;
+		}
+
 			 
 	}
 ?> 

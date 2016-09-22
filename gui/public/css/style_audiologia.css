@@ -6,7 +6,22 @@ footer {
 	background: #222222;
 	color: #fff;
 }
-
+.empresa_eliminar{
+    background-color: white;
+    border: 1px solid #bebebf;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 7px;
+}
+.empresa_eliminar span{
+    color:black;
+}
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #bebebf;
+}
 .copyright {
 	margin: 15px;
 	text-align: center;
@@ -43,8 +58,13 @@ legend.scheduler-border {
     width: 70%;
     height: 70%;
 }
-
+.jumbotron h3, .jumbotron p{
+    font-family: monospace;
+    font-weight: bold;
+}
 #titulo {
     font-size:40px; 
     margin-top:15px;
+    font-family: monospace;
+    font-weight: bold;
 }

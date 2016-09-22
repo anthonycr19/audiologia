@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaBuscarPaciente.php
     * Fecha : martes 25 de abril del 2015 12:16:34 a.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
     require_once('../../bll/bo/BOEmpresa.php');
@@ -14,6 +14,9 @@
     //Recuperamos el nombre de las Empresas
     $boEmpresa = new BOEmpresa();           
     $empresas = $boEmpresa->GetEntidad();
+
+
+
 
     if (isset($_POST['idPacienteEliminar'])) {     
         $idPacienteEliminar = $_POST['idPacienteEliminar'];
@@ -34,6 +37,8 @@
 
         //echo var_dump($busquedaPacientes);
     }
+
+
 
 ?>
 <head>

@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : DALArchivoTrabajador.php
 	* Fecha : miércoles 13 de mayo del 2015 10:55:05 p.m.
-	* Autor : Franklin Jesús Cabezas Rosario
+	* Autor : CAPSULE SAC
 	**/
 
 
@@ -18,7 +18,6 @@
 		public $cn;
 
 		/* Funcion: GetEntidad */
-
 		public function GetEntidad(){
 
 			$this->cn = new Conexion();

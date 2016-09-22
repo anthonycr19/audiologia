@@ -3,7 +3,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : VistaExportarDatos.php
 	* Fecha : domingo 09 de mayo del 2015 06:29:47 p.m.
-	* Autor : Franklin Jesús Cabezas Rosario
+	* Autor : CAPSULE SAC
 	**/
 ?>
 
@@ -14,7 +14,7 @@
 	  <title>Audiología | Laboral</title>
 	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	  <meta name="author" content="Franklin Jesús Cabezas Rosario">
+	  <meta name="author" content="CAPSULE SAC">
 
 	  <link rel="icon" href="../public/img/favicon.ico" type="image/x-icon">
 	  <link rel="stylesheet" type="text/css" href="../public/bootstrap/css/bootstrap.min.css">
@@ -100,7 +100,7 @@
 
 			//Recupera el RUC de la Empresa
 			$ruc = $audiologiaTotal[$i]->ruc;
-			//Recupera la información de la Empresa por medio del RUC			
+			//Recupera la información de la Empresa por medio del RUC
 			$empresa = $boEmpresa->GetEntidadxRuc($ruc);
 
 			//Verifica si Empresa existe

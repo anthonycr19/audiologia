@@ -4,7 +4,7 @@
 	* Proyecto : AUDIOLOGIA LABORAL - CLINICA
 	* Nombre del Archivo : DALEmpresa.php
 	* Fecha : domingo 22 de marzo del 2015 10:29:58 p.m.
-	* Autor : Franklin Jesús Cabezas Rosario
+	* Autor : CAPSULE SAC
 	**/
 
 
@@ -58,8 +58,33 @@
 			return $result;
 		}
 
+        /* Funcion: GetEntidadxDireccion */
 
-		/* Funcion: Insertar */
+        public function GetEntidadxDireccion($direccion){
+
+            $this->cn = new Conexion();
+            $sql = "SELECT * FROM tbl_empresa WHERE direccion = '$direccion' AND estado = 1 LIMIT 1";
+            $link = $this->cn->Conectarse();
+            $result = mysql_query($sql, $link);
+            $this->cn->Desconectarse($link);
+
+            return $result;
+        }
+
+        /* Funcion: GetEntidadxDireccion */
+
+        public function GetEntidades(){
+
+            $this->cn = new Conexion();
+            $sql = "SELECT count(DISTINCT direccion) FROM tbl_empresa";
+            $link = $this->cn->Conectarse();
+            $result = mysql_query($sql, $link);
+            $this->cn->Desconectarse($link);
+
+            return $result;
+        }
+
+        /* Funcion: Insertar */
 
 		public function Insertar($razonSocial, $ruc, $direccion, $contacto){
 

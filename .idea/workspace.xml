@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df30c56c-b144-4dd9-8d76-c4eddb723193" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archivos/20060m.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archivos/2006159.xlsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archivos/FORMATO EXCEL.xlsx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEArchivo.php" afterPath="$PROJECT_DIR$/bll/be/BEArchivo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEArchivoTrabajador.php" afterPath="$PROJECT_DIR$/bll/be/BEArchivoTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEAudioTonalOd.php" afterPath="$PROJECT_DIR$/bll/be/BEAudioTonalOd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEAudioTonalOi.php" afterPath="$PROJECT_DIR$/bll/be/BEAudioTonalOi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEDiagnostico.php" afterPath="$PROJECT_DIR$/bll/be/BEDiagnostico.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEEmpresa.php" afterPath="$PROJECT_DIR$/bll/be/BEEmpresa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEEmpresaTrabajador.php" afterPath="$PROJECT_DIR$/bll/be/BEEmpresaTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEExperienciaLaboral.php" afterPath="$PROJECT_DIR$/bll/be/BEExperienciaLaboral.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEInforme.php" afterPath="$PROJECT_DIR$/bll/be/BEInforme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BELineaBase.php" afterPath="$PROJECT_DIR$/bll/be/BELineaBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEMenoscabo.php" afterPath="$PROJECT_DIR$/bll/be/BEMenoscabo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEOpciones.php" afterPath="$PROJECT_DIR$/bll/be/BEOpciones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEOtoscopia.php" afterPath="$PROJECT_DIR$/bll/be/BEOtoscopia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEPerfilOpcion.php" afterPath="$PROJECT_DIR$/bll/be/BEPerfilOpcion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BERecomendacion.php" afterPath="$PROJECT_DIR$/bll/be/BERecomendacion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BERol.php" afterPath="$PROJECT_DIR$/bll/be/BERol.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BETemporal.php" afterPath="$PROJECT_DIR$/bll/be/BETemporal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BETrabajador.php" afterPath="$PROJECT_DIR$/bll/be/BETrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEUsuario.php" afterPath="$PROJECT_DIR$/bll/be/BEUsuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEVstBusquedaEmpresa.php" afterPath="$PROJECT_DIR$/bll/be/BEVstBusquedaEmpresa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/be/BEVstBusquedaPacientes.php" afterPath="$PROJECT_DIR$/bll/be/BEVstBusquedaPacientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOArchivo.php" afterPath="$PROJECT_DIR$/bll/bo/BOArchivo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOArchivoTrabajador.php" afterPath="$PROJECT_DIR$/bll/bo/BOArchivoTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOAudioTonalOd.php" afterPath="$PROJECT_DIR$/bll/bo/BOAudioTonalOd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOAudioTonalOi.php" afterPath="$PROJECT_DIR$/bll/bo/BOAudioTonalOi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BODiagnostico.php" afterPath="$PROJECT_DIR$/bll/bo/BODiagnostico.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOEmpresa.php" afterPath="$PROJECT_DIR$/bll/bo/BOEmpresa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOEmpresaTrabajador.php" afterPath="$PROJECT_DIR$/bll/bo/BOEmpresaTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOExperienciaLaboral.php" afterPath="$PROJECT_DIR$/bll/bo/BOExperienciaLaboral.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOInforme.php" afterPath="$PROJECT_DIR$/bll/bo/BOInforme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOLineaBase.php" afterPath="$PROJECT_DIR$/bll/bo/BOLineaBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOMenoscabo.php" afterPath="$PROJECT_DIR$/bll/bo/BOMenoscabo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOOpciones.php" afterPath="$PROJECT_DIR$/bll/bo/BOOpciones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOOtoscopia.php" afterPath="$PROJECT_DIR$/bll/bo/BOOtoscopia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOPerfilOpcion.php" afterPath="$PROJECT_DIR$/bll/bo/BOPerfilOpcion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BORecomendacion.php" afterPath="$PROJECT_DIR$/bll/bo/BORecomendacion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BORol.php" afterPath="$PROJECT_DIR$/bll/bo/BORol.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOTemporal.php" afterPath="$PROJECT_DIR$/bll/bo/BOTemporal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOTrabajador.php" afterPath="$PROJECT_DIR$/bll/bo/BOTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOUsuario.php" afterPath="$PROJECT_DIR$/bll/bo/BOUsuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOVstBusquedaEmpresa.php" afterPath="$PROJECT_DIR$/bll/bo/BOVstBusquedaEmpresa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bll/bo/BOVstBusquedaPacientes.php" afterPath="$PROJECT_DIR$/bll/bo/BOVstBusquedaPacientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conexion/Conexion.php" afterPath="$PROJECT_DIR$/conexion/Conexion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conexion/cerrarSesion.php" afterPath="$PROJECT_DIR$/conexion/cerrarSesion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conexion/iniciarSesion.php" afterPath="$PROJECT_DIR$/conexion/iniciarSesion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALArchivo.php" afterPath="$PROJECT_DIR$/dal/DALArchivo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALArchivoTrabajador.php" afterPath="$PROJECT_DIR$/dal/DALArchivoTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALAudioTonalOd.php" afterPath="$PROJECT_DIR$/dal/DALAudioTonalOd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALAudioTonalOi.php" afterPath="$PROJECT_DIR$/dal/DALAudioTonalOi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALDiagnostico.php" afterPath="$PROJECT_DIR$/dal/DALDiagnostico.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALEmpresa.php" afterPath="$PROJECT_DIR$/dal/DALEmpresa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALEmpresaTrabajador.php" afterPath="$PROJECT_DIR$/dal/DALEmpresaTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALExperienciaLaboral.php" afterPath="$PROJECT_DIR$/dal/DALExperienciaLaboral.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALInforme.php" afterPath="$PROJECT_DIR$/dal/DALInforme.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALLineaBase.php" afterPath="$PROJECT_DIR$/dal/DALLineaBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALMenoscabo.php" afterPath="$PROJECT_DIR$/dal/DALMenoscabo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALOpciones.php" afterPath="$PROJECT_DIR$/dal/DALOpciones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALOtoscopia.php" afterPath="$PROJECT_DIR$/dal/DALOtoscopia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALPerfilOpcion.php" afterPath="$PROJECT_DIR$/dal/DALPerfilOpcion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALRecomendacion.php" afterPath="$PROJECT_DIR$/dal/DALRecomendacion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALRol.php" afterPath="$PROJECT_DIR$/dal/DALRol.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALTemporal.php" afterPath="$PROJECT_DIR$/dal/DALTemporal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALTrabajador.php" afterPath="$PROJECT_DIR$/dal/DALTrabajador.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALUsuario.php" afterPath="$PROJECT_DIR$/dal/DALUsuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALVstBusquedaEmpresa.php" afterPath="$PROJECT_DIR$/dal/DALVstBusquedaEmpresa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dal/DALVstBusquedaPacientes.php" afterPath="$PROJECT_DIR$/dal/DALVstBusquedaPacientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/public/css/style_audiologia.css" afterPath="$PROJECT_DIR$/gui/public/css/style_audiologia.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/public/js/js_audiologia.js" afterPath="$PROJECT_DIR$/gui/public/js/js_audiologia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaBuscarEmpresa.php" afterPath="$PROJECT_DIR$/gui/view/VistaBuscarEmpresa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaBuscarPaciente.php" afterPath="$PROJECT_DIR$/gui/view/VistaBuscarPaciente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaCargarExcel.php" afterPath="$PROJECT_DIR$/gui/view/VistaCargarExcel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaEmpresas.php" afterPath="$PROJECT_DIR$/gui/view/VistaEmpresas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaExportarDatos.php" afterPath="$PROJECT_DIR$/gui/view/VistaExportarDatos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaGestionarPermisos.php" afterPath="$PROJECT_DIR$/gui/view/VistaGestionarPermisos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaInicio.php" afterPath="$PROJECT_DIR$/gui/view/VistaInicio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaNuevoRol.php" afterPath="$PROJECT_DIR$/gui/view/VistaNuevoRol.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaNuevoUsuario.php" afterPath="$PROJECT_DIR$/gui/view/VistaNuevoUsuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaPacientes.php" afterPath="$PROJECT_DIR$/gui/view/VistaPacientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaReportePaciente.php" afterPath="$PROJECT_DIR$/gui/view/VistaReportePaciente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaReportes.php" afterPath="$PROJECT_DIR$/gui/view/VistaReportes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaTruncateTableTemporal.php" afterPath="$PROJECT_DIR$/gui/view/VistaTruncateTableTemporal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/view/VistaVerPaciente.php" afterPath="$PROJECT_DIR$/gui/view/VistaVerPaciente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inicio.php" afterPath="$PROJECT_DIR$/inicio.php" />
+    </list>
+    <ignored path="audiologia.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="audiologia" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="VistaBuscarEmpresa.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gui/view/VistaBuscarEmpresa.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+              <folding>
+                <marker date="1474540176138" expanded="true" signature="6284:7678" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="6823:7213" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="6876:7167" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="7259:7636" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="7312:7590" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="7890:9280" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="8429:8818" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="8482:8772" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="8863:9238" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="8916:8979" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="8916:8980" ph="..." />
+                <marker date="1474540176138" expanded="true" signature="8916:9191" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js_audiologia.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/public/js/js_audiologia.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOArchivo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bll/bo/BOArchivo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="113" column="49" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DALArchivo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dal/DALArchivo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="148" column="52" selection-start-line="148" selection-start-column="52" selection-end-line="148" selection-end-column="52" />
+              <folding>
+                <element signature="e#8#177#0#PHP" expanded="true" />
+                <marker date="1474539562625" expanded="true" signature="453:520" ph="SELECT * FRO... tbl_archivo" />
+                <marker date="1474539562625" expanded="true" signature="780:858" ph="SELECT * FRO... tbl_archivo" />
+                <marker date="1474539562625" expanded="true" signature="1205:1423" ph="INSERT INTO tbl_archivo... " />
+                <marker date="1474539562625" expanded="true" signature="1770:1963" ph="UPDATE tbl_a... " />
+                <marker date="1474539562625" expanded="true" signature="2270:2336" ph="UPDATE tbl_a... " />
+                <marker date="1474539562625" expanded="true" signature="2679:2732" ph="UPDATE tbl_a... " />
+                <marker date="1474539562625" expanded="true" signature="3234:3304" ph="SELECT nombr... tbl_archivo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bll/bo/BOExperienciaLaboral.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOInforme.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOLineaBase.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOMenoscabo.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOOpciones.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOOtoscopia.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOPerfilOpcion.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BORecomendacion.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BORol.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOTemporal.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOTrabajador.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOUsuario.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOVstBusquedaEmpresa.php" />
+        <option value="$PROJECT_DIR$/bll/bo/BOVstBusquedaPacientes.php" />
+        <option value="$PROJECT_DIR$/conexion/Conexion.php" />
+        <option value="$PROJECT_DIR$/conexion/cerrarSesion.php" />
+        <option value="$PROJECT_DIR$/conexion/iniciarSesion.php" />
+        <option value="$PROJECT_DIR$/dal/DALArchivoTrabajador.php" />
+        <option value="$PROJECT_DIR$/dal/DALAudioTonalOd.php" />
+        <option value="$PROJECT_DIR$/dal/DALAudioTonalOi.php" />
+        <option value="$PROJECT_DIR$/dal/DALDiagnostico.php" />
+        <option value="$PROJECT_DIR$/dal/DALEmpresa.php" />
+        <option value="$PROJECT_DIR$/dal/DALEmpresaTrabajador.php" />
+        <option value="$PROJECT_DIR$/dal/DALExperienciaLaboral.php" />
+        <option value="$PROJECT_DIR$/dal/DALInforme.php" />
+        <option value="$PROJECT_DIR$/dal/DALLineaBase.php" />
+        <option value="$PROJECT_DIR$/dal/DALMenoscabo.php" />
+        <option value="$PROJECT_DIR$/dal/DALOpciones.php" />
+        <option value="$PROJECT_DIR$/dal/DALOtoscopia.php" />
+        <option value="$PROJECT_DIR$/dal/DALPerfilOpcion.php" />
+        <option value="$PROJECT_DIR$/dal/DALRecomendacion.php" />
+        <option value="$PROJECT_DIR$/dal/DALRol.php" />
+        <option value="$PROJECT_DIR$/dal/DALTemporal.php" />
+        <option value="$PROJECT_DIR$/dal/DALTrabajador.php" />
+        <option value="$PROJECT_DIR$/dal/DALUsuario.php" />
+        <option value="$PROJECT_DIR$/dal/DALVstBusquedaEmpresa.php" />
+        <option value="$PROJECT_DIR$/dal/DALVstBusquedaPacientes.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaEmpresas.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaExportarDatos_old.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaGestionarPermisos.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaInicio.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaNuevoRol.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaNuevoUsuario.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaReportePaciente.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaReportes.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaTruncateTableTemporal.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaVerPaciente.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/gui/public/js/js_audiologia.js" />
+        <option value="$PROJECT_DIR$/dal/DALArchivo.php" />
+        <option value="$PROJECT_DIR$/gui/view/VistaBuscarEmpresa.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audiologia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audiologia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audiologia" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df30c56c-b144-4dd9-8d76-c4eddb723193" name="Default" comment="" />
+      <created>1473013525707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473013525707</updated>
+      <workItem from="1473013528237" duration="18000000" />
+      <workItem from="1473271288826" duration="1889000" />
+      <workItem from="1473314442317" duration="8692000" />
+      <workItem from="1473362667820" duration="593000" />
+      <workItem from="1473365048100" duration="3689000" />
+      <workItem from="1473398690088" duration="9801000" />
+      <workItem from="1473428725811" duration="10135000" />
+      <workItem from="1473439586518" duration="3991000" />
+      <workItem from="1473451460356" duration="3169000" />
+      <workItem from="1473454983020" duration="602000" />
+      <workItem from="1473457909937" duration="3078000" />
+      <workItem from="1473623799286" duration="10672000" />
+      <workItem from="1473732906974" duration="6181000" />
+      <workItem from="1473829015116" duration="11234000" />
+      <workItem from="1473910827525" duration="8777000" />
+      <workItem from="1474030567311" duration="597000" />
+      <workItem from="1474157482830" duration="18268000" />
+      <workItem from="1474217588662" duration="1888000" />
+      <workItem from="1474260931501" duration="13745000" />
+      <workItem from="1474517687414" duration="44000" />
+      <workItem from="1474518186465" duration="780000" />
+      <workItem from="1474519038015" duration="17136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152961000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1546875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4258675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20219436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4258675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOLineaBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOMenoscabo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOOpciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOOtoscopia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOPerfilOpcion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BORecomendacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BORol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOTemporal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOTrabajador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOVstBusquedaEmpresa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOVstBusquedaPacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexion/Conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexion/cerrarSesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexion/iniciarSesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALArchivoTrabajador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALAudioTonalOd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALAudioTonalOi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALDiagnostico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALEmpresa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALEmpresaTrabajador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALExperienciaLaboral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALInforme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALLineaBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALMenoscabo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALOpciones.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALOtoscopia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALPerfilOpcion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALRecomendacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALRol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALTemporal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALTrabajador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALVstBusquedaEmpresa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALVstBusquedaPacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaEmpresas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaTruncateTableTemporal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaReportes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaNuevoRol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaInicio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaGestionarPermisos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaNuevoUsuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaExportarDatos_old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaVerPaciente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1994">
+          <caret line="679" column="117" selection-start-line="679" selection-start-column="117" selection-end-line="679" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/be/BEArchivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaReportePaciente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="841" column="24" selection-start-line="841" selection-start-column="24" selection-end-line="841" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/public/js/js_audiologia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dal/DALArchivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="148" column="52" selection-start-line="148" selection-start-column="52" selection-end-line="148" selection-end-column="52" />
+          <folding>
+            <element signature="e#8#177#0#PHP" expanded="true" />
+            <marker date="1474539562625" expanded="true" signature="453:520" ph="SELECT * FRO... tbl_archivo" />
+            <marker date="1474539562625" expanded="true" signature="780:858" ph="SELECT * FRO... tbl_archivo" />
+            <marker date="1474539562625" expanded="true" signature="1205:1423" ph="INSERT INTO tbl_archivo... " />
+            <marker date="1474539562625" expanded="true" signature="1770:1963" ph="UPDATE tbl_a... " />
+            <marker date="1474539562625" expanded="true" signature="2270:2336" ph="UPDATE tbl_a... " />
+            <marker date="1474539562625" expanded="true" signature="2679:2732" ph="UPDATE tbl_a... " />
+            <marker date="1474539562625" expanded="true" signature="3234:3304" ph="SELECT nombr... tbl_archivo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bll/bo/BOArchivo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="113" column="49" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/view/VistaBuscarEmpresa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <marker date="1474540176138" expanded="true" signature="6284:7678" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="6823:7213" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="6876:7167" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="7259:7636" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="7312:7590" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="7890:9280" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="8429:8818" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="8482:8772" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="8863:9238" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="8916:8979" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="8916:8980" ph="..." />
+            <marker date="1474540176138" expanded="true" signature="8916:9191" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

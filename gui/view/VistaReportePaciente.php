@@ -4,7 +4,7 @@
     * Proyecto : AUDIOLOGIA LABORAL - CLINICA
     * Nombre del Archivo : VistaReportePaciente.php
     * Fecha : lunes 11 de abril del 2015 07:14:34 p.m.
-    * Autor : Franklin Jesús Cabezas Rosario
+    * Autor : CAPSULE SAC
     **/
 
 	require_once('../../bll/bo/BOTrabajador.php');
@@ -181,7 +181,7 @@
   	<meta charset="utf-8">
   	<title>Audiología | Laboral</title>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
- 	<meta name="author" content="Franklin Jesús Cabezas Rosario">
+ 	<meta name="author" content="CAPSULE SAC">
 
   	<link rel="icon" href="../public/img/favicon.ico" type="image/x-icon">
   	<link rel="stylesheet" type="text/css" href="../public/css/reporte.css">
@@ -830,7 +830,7 @@
 	    		<table>
 	    			<tr>
 	    				<td>
-	    					<input type="text" name="conclusion" id="conclusion" size="125" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->conclusion; ?>">
+	    					<input type="text" name="conclusion" id="conclusion" size="400" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->conclusion; ?>">
 	    				</td>
 	    			</tr>
 	    		</table>
@@ -845,7 +845,7 @@
 	    			<tr>
 	    				<td>
 	    					<input type="hidden" name="idRecomendacion" id="idRecomendacion" value="<?php echo $recomendacionActual[0]->idRecomendacion; ?>">
-	    					<input type="text" name="rGeneral" id="rGeneral" size="125" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->rGeneral; ?>">
+	    					<input type="text" name="rGeneral" id="rGeneral" size="400" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->rGeneral; ?>">
 	    				</td>
 	    			</tr>
 	    		</table>
@@ -859,7 +859,7 @@
 	    		<table>
 	    			<tr>
 	    				<td>
-	    					<input type="text" name="rEspecifica" id="rEspecifica" size="125" border="0px" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->especifica; ?>">
+	    					<input type="text" name="rEspecifica" id="rEspecifica" size="400" border="0px" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->especifica; ?>">
 	    				</td>
 	    			</tr>
 	    		</table>
@@ -873,7 +873,7 @@
 	    		<table>
 	    			<tr>
 	    				<td>
-	    					<input type="text" name="rComplementarios" id="rComplementarios" size="125" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->complementarios; ?>">
+	    					<input type="text" name="rComplementarios" id="rComplementarios" size="400" style="border:none; font-family: verdana; font-size: 10px;" value="<?php echo $recomendacionActual[0]->complementarios; ?>">
 	    				</td>
 	    			</tr>
 	    		</table>
