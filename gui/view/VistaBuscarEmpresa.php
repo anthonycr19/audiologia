@@ -110,8 +110,14 @@
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Nombre del Archivo: activate to sort column ascending" style="width: 35%;"><center>Nombre del Archivo</center></th>
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Fecha Registro: activate to sort column ascending" style="width: 17%;"><center>Fecha Registro</center></th>
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Empresa: activate to sort column ascending" style="width: 25%;"><center>Empresa</center></th>
+<<<<<<< HEAD
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Descargar</center></th>
                         <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Eliminar</center></th>
+=======
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Acciones</center></th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Eliminar</center></th>
+                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Acciones: activate to sort column ascending" style="width: 15%;"><center>Inutiliar</center></th>
+>>>>>>> 60503db241f7d359884bc9b1791a26074665391e
                     </tr>
                 </thead>
                 <tbody>
